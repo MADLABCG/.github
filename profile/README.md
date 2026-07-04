@@ -1,4 +1,4 @@
-## MADLAB Consulting Group 👋
+## MADLAB Consulting Group
 
 
 🙋 Es una empresa dedicada al desarrollo de Software, ventas de Servicios Tecnologicos y Asesoría para empresas
