@@ -42,6 +42,20 @@ We work across the full software lifecycle — from architecture and design to d
 - **Documentation-driven decisions** using ADRs for key technical choices
 - **Security and scalability** considered from day one, not bolted on later
 
+## Container Images
+
+We publish production-ready, multi-arch (`amd64` / `arm64`) base images on [Docker Hub](https://hub.docker.com/u/madlabcg).
+
+| Image | Description | Tags |
+|---|---|---|
+| [`madlabcg/laravel-php`](https://hub.docker.com/r/madlabcg/laravel-php) | PHP-FPM + nginx + supervisor runtime for Laravel apps. No app code included. | `8.5`, `8.4`, `8.2`, `7.4`, `latest` |
+| [`madlabcg/react-nginx`](https://hub.docker.com/r/madlabcg/react-nginx) | Non-root nginx runtime for React/Vite SPAs with runtime env config. | `1.28`, `latest` |
+| [`madlabcg/minio`](https://hub.docker.com/r/madlabcg/minio) | MinIO server + `mc`, unmodified Chainguard image with pinned version tags. | `stable`, `latest` |
+
+```bash
+docker pull madlabcg/laravel-php:8.4
+```
+
 ## Get in Touch
 
 Interested in working with us or learning more about a project? Reach out through this organization or contact us directly.
